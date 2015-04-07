@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="resist">Resistance</string>
+    <string name="voltage">Voltage</string>
+    <string name="current">Current</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

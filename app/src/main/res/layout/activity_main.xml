@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resist"
+        />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="numberDecimal">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/voltage"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="numberDecimal">
+    </EditText>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/current"
+        />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="numberDecimal">
+    </EditText>
+    <Button
+        android:text="Calculate resistance"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="Calculate voltage"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="Calculate current"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
